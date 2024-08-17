@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap');
+
+
+body {
+  background-color: #f3e5d8;
+  font-family: "DM Sans", sans-serif;
+  color: #444;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #255538;
+  border-radius: 6px;
+}
+
+header .logo img {
+  max-height: 50px;
+}
+
+header nav ul {
+  display: flex;
+  margin: 0;
+  list-style: none;
+}
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.hero {
+  margin-top: 20px;
+  padding: 40px 20px;
+  background-image: url("hero.jpg"); 
+  background-position: center center;
+  background-size: cover;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.hero h1 {
+  color: #fff;
+  font-size: 2.5em;
+  margin: 0;
+}
+
+
+main {
+  padding: 20px;
+}
+
+.recetas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); ;
+  gap: 20px;
+}
+
+.recetas {
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  padding: 20px;
+}
+
+.recetas img {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid #7E4333;
+}
+
+.recetas h3 {
+  color: #7E4333;
+  margin: 10px 0;
+}
+
+.recetas p {
+  color: #666;
+}
+
+.recetas a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #7E4333;
+  font-weight: bold;
+}
+
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #255538;
+  padding: 20px 20px 18px;
+  color: white;
+  border-radius: 6px;
+}
+
+footer p {
+  margin: 0;
+}
